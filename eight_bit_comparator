@@ -1,0 +1,20 @@
+library IEEE;
+use IEEE.std_logic_1164.all; -- Usage of multi-logic values 
+use IEEE.std_logic_arith.all; -- Usage of arithematic operation
+use IEEE.std_logic_unsigned.all; -- Standard logic for unsigned bits 
+
+-- Entity Declaration (Input and Output Port Declaration)
+entity final_comparision_check is 
+port (e1,e2,g1,g2,l1,l2: in std_logic;
+		eq,ls,gt: out std_logic);
+end entity;
+-- End of declaring ports
+
+-- Description of the function/logic 
+architecture final_comparision_exp of final_comparision_check is
+begin 
+eq<= e1 and e2;
+gt<= g1 or (e2 and g2);
+ls<= l1 or (e2 and l2);
+end final_comparision_exp;
+-- Program Ends here
