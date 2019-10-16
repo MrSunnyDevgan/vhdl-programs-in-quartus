@@ -3,6 +3,7 @@ use IEEE.std_logic_1164.all; -- Usage of multi-logic values
 use IEEE.std_logic_arith.all; -- Usage of arithematic operation
 use IEEE.std_logic_unsigned.all; -- Standard logic for unsigned bits
 
+
 -- Entity Declaration (Input and Output Port Declaration)
 entity four_comparator_b is
   port (
@@ -11,6 +12,7 @@ entity four_comparator_b is
    );
 end four_comparator_b; 
 -- End of declaring ports
+
 
 -- Description of the function/logic 
 architecture four_comparator_func of four_comparator_b is
