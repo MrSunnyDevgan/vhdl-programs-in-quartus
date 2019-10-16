@@ -1,1 +1,1 @@
-# vhdl-programs-in-quartus
+Vhdl-programs-in-quartus
