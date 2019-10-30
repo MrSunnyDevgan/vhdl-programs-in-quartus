@@ -12,4 +12,5 @@ begin
 
 	Y<=(A and B);
 	
+	
 end Behavioral;
